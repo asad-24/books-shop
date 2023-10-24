@@ -1,0 +1,45 @@
+
+.bookShop{
+    height: 85.2vh;
+    width: 100%;
+    opacity: 0.2;
+    
+}
+.bookShop{
+    position: relative;
+}
+
+.Welcome{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+  
+}
+@media (max-width:480px) {
+    .Welcome{
+        position: absolute;
+        left: 0;
+        top: 50%;
+      
+    }  
+}
+@media (min-width:768px) {
+    .Welcome{
+        position: absolute;
+        left: 15%;
+        top: 50%;
+      
+    }  
+}
+@media (min-width:991px) {
+    .Welcome{
+        position: absolute;
+        left: 25%;
+        top: 50%;
+      
+    }  
+}
+.textWEl{
+    font-weight: bold;
+    font-size: 50px;
+}

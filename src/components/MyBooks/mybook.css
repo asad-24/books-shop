@@ -1,0 +1,42 @@
+
+.card-img-top{
+    height: 300px;
+    width: 200px;
+    
+   
+}
+.card:hover .card-img-top{
+   transform: scale(1.1);
+   transition: ease-in-out 0.5s;
+   
+    
+   
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+
+}
+.card:hover {
+   background-color: rgb(185, 242, 242);
+
+}
+.card-title{
+    text-decoration: none;
+    font-weight: bold;
+}
+.searchBar{
+    width: 200px;
+    
+}
+.searchForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    border-radius: 20px;
+}
